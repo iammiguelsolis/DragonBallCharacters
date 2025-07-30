@@ -1,12 +1,38 @@
-# React + Vite
+# 🐉 Dragon Ball Characters
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto web hecho con **React** que muestra una galería de personajes del universo Dragon Ball. Se conecta a una API externa para obtener la información de cada personaje, como su nombre, raza, descripción, nivel de ki, entre otros.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías usadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** (con hooks como `useState` y `useEffect`)
+- **React Router DOM** para navegación entre vistas
+- **TailwindCSS** para estilos rápidos y responsivos
+- **Vite** como herramienta de desarrollo
+- **Fetch API** para consumir datos
+- **React Icons** para íconos (como flechas de navegación)
 
-## Expanding the ESLint configuration
+## 🔗 API utilizada
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este proyecto consume datos de la API pública:  
+👉 [https://dragonball-api.com](https://dragonball-api.com)  
+Documentación: [https://dragonball-api.com/documentation](https://dragonball-api.com/documentation)
+
+Gracias a esta API se pueden obtener los personajes, filtrarlos por página e incluso obtenerlos por ID para ver detalles individuales.
+
+## ✨ Funcionalidades
+
+- 🔄 Paginación de personajes
+- 🧠 Ordenar por nivel de **ki**
+- 🔍 Ver detalles de cada personaje
+- 📦 Carga de datos en tiempo real
+- 🎡 Indicador de carga (loading spinner)
+
+## 🛠 Cómo ejecutar
+
+```bash
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
